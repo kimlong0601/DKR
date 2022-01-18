@@ -1,0 +1,43 @@
+@import 'header';
+@import 'footer';
+@import 'recruitment';
+@import 'event';
+@import 'projects';
+@import 'vision';
+@import 'about';
+html,body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.container{
+    width: 	1140px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1200px){
+    .container{
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+
+}
+@media screen and (max-width: 992px){
+    .container{
+        width: 960px;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 720px;
+        margin: 0 auto;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    .container{
+        width: 540px;
+        margin: 0 auto;
+    }
+}
